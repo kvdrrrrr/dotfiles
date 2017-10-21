@@ -1,0 +1,13 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "nord-atom-ui"
+      "nord-atom-syntax"
+    ]
+  editor:
+    showInvisibles: true
+    tabLength: 4
+    tabType: "soft"
+  welcome:
+    showOnStartup: false

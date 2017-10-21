@@ -1,0 +1,6 @@
+[submodule "config/AimTux"]
+	path = config/AimTux
+	url = https://github.com/kvdrrrrr/atconfigs.git
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot

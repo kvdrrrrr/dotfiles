@@ -1,0 +1,1863 @@
+{
+    "AirStuck": {
+        "Enabled": true,
+        "Key": 81
+    },
+    "AutoAccept": {
+        "Enabled": true
+    },
+    "AutoDefuse": {
+        "Enabled": true
+    },
+    "AutoPistol": {
+        "Enabled": true
+    },
+    "AutoStrafe": {
+        "Enabled": true
+    },
+    "BunnyHop": {
+        "Enabled": true
+    },
+    "Chams": {
+        "Color": {
+            "Enemy": {
+                "a": 255.0,
+                "b": 20.9999980926514,
+                "g": 20.9999980926514,
+                "r": 255.0
+            },
+            "EnemyVisible": {
+                "a": 255.0,
+                "b": 0.0,
+                "g": 169.145721435547,
+                "r": 255.0
+            },
+            "Friend": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 103.405204772949,
+                "r": 20.9999980926514
+            },
+            "FriendVisible": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 173.113204956055,
+                "r": 53.8190956115723
+            },
+            "LocalPlayer": {
+                "a": 255.0,
+                "b": 57.4636917114258,
+                "g": 248.592971801758,
+                "r": 157.350372314453
+            }
+        },
+        "Enabled": true,
+        "Filter": {
+            "Enemy": true,
+            "Friend": false,
+            "LocalPlayer": false
+        },
+        "Type": 0,
+        "XQZ": true
+    },
+    "ChatSpammer": {
+        "Cmd": 0,
+        "Delay": 0,
+        "Enabled": false,
+        "FakeReports": {
+            "Team": 0,
+            "Type": 0
+        },
+        "Kills": {
+            "Enabled": true,
+            "Message": "uff ja $"
+        },
+        "Positions": {
+            "Show": {
+                "Health": false,
+                "LastPlace": false,
+                "Money": false,
+                "Name": false,
+                "Rank": false,
+                "Weapon": false,
+                "Wins": false
+            },
+            "Team": 0
+        },
+        "Regular": {
+            "Messages": [
+                "vaporwave future funk FM 24/7"
+            ],
+            "Randomize": true
+        },
+        "Type": 0
+    },
+    "ChatTranslator": {
+        "Api": 0,
+        "Enabled": false,
+        "IgnoredLanguages": [
+            "pl"
+        ]
+    },
+    "ClanTagChanger": {
+        "Animation": {
+            "Custom": {
+                "Animations": [
+                    {
+                        "AnimationFrames": [
+                            "ADMIN",
+                            "A D M I N",
+                            "A  D  M  I  N",
+                            "A D M I N"
+                        ],
+                        "Name": "admin"
+                    }
+                ],
+                "Selected": 0
+            },
+            "Delay": 300,
+            "Type": 6
+        },
+        "Enabled": true,
+        "Value": "卐 ADMIN 卍"
+    },
+    "DamageIndicators": {
+        "Enabled": true,
+        "Enemies": true,
+        "FloatTime": 1000,
+        "Friends": false,
+        "OnlyLocalDamage": true
+    },
+    "DisablePostProcessing": {
+        "Enabled": true
+    },
+    "ESP": {
+        "AimTracers": false,
+        "Bar": {
+            "Enabled": true,
+            "Type": 2
+        },
+        "Box": {
+            "Enabled": true,
+            "Type": 0
+        },
+        "Color": {
+            "Bomb": {
+                "a": 255.0,
+                "b": 20.9999980926514,
+                "g": 20.9999980926514,
+                "r": 255.0
+            },
+            "BombDefusing": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 173.000091552734,
+                "r": 53.9999961853027
+            },
+            "Chicken": {
+                "a": 255.0,
+                "b": 254.997451782227,
+                "g": 254.997451782227,
+                "r": 255.0
+            },
+            "Decoy": {
+                "a": 255.0,
+                "b": 0.0,
+                "g": 255.0,
+                "r": 32.9999847412109
+            },
+            "Defuser": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 173.000091552734,
+                "r": 53.9999961853027
+            },
+            "Enemy": {
+                "a": 255.0,
+                "b": 20.9999980926514,
+                "g": 20.9999980926514,
+                "r": 255.0
+            },
+            "EnemyVisible": {
+                "a": 255.0,
+                "b": 0.0,
+                "g": 207.587936401367,
+                "r": 255.0
+            },
+            "Fish": {
+                "a": 255.0,
+                "b": 254.997451782227,
+                "g": 254.997451782227,
+                "r": 255.0
+            },
+            "Flashbang": {
+                "a": 255.0,
+                "b": 0.0,
+                "g": 208.0,
+                "r": 255.0
+            },
+            "Friend": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 103.00993347168,
+                "r": 20.9999980926514
+            },
+            "FriendVisible": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 173.000091552734,
+                "r": 53.9999961853027
+            },
+            "Grenade": {
+                "a": 255.0,
+                "b": 20.9999980926514,
+                "g": 20.9999980926514,
+                "r": 255.0
+            },
+            "Hostage": {
+                "a": 255.0,
+                "b": 20.9999980926514,
+                "g": 20.9999980926514,
+                "r": 255.0
+            },
+            "LocalPlayer": {
+                "a": 255.0,
+                "b": 0.0,
+                "g": 255.0,
+                "r": 32.9999847412109
+            },
+            "Molotov": {
+                "a": 255.0,
+                "b": 20.9999980926514,
+                "g": 20.9999980926514,
+                "r": 255.0
+            },
+            "Smoke": {
+                "a": 255.0,
+                "b": 0.0,
+                "g": 255.0,
+                "r": 32.9999847412109
+            },
+            "Weapon": {
+                "a": 255.0,
+                "b": 254.997451782227,
+                "g": 254.997451782227,
+                "r": 255.0
+            }
+        },
+        "ColorType": 1,
+        "Enabled": true,
+        "Filter": {
+            "Bomb": true,
+            "Chicken": false,
+            "Defuser": true,
+            "Enemy": true,
+            "Fish": true,
+            "Friend": false,
+            "Hostage": false,
+            "LocalPlayer": true,
+            "Projectiles": true,
+            "Weapon": true
+        },
+        "FlashCheck": false,
+        "Info": {
+            "Armor": true,
+            "Defusing": true,
+            "Flashed": true,
+            "GrabbingHostage": true,
+            "HasDefuser": true,
+            "Health": true,
+            "Location": false,
+            "Money": false,
+            "Name": true,
+            "Planting": true,
+            "Rank": false,
+            "Rescuing": true,
+            "Scoped": true,
+            "SteamID": false,
+            "Weapon": true
+        },
+        "Skeleton": false,
+        "SmokeCheck": false,
+        "Thickness": 1,
+        "Tracers": false,
+        "VisibleCheck": false
+    },
+    "EdgeJump": {
+        "Enabled": true,
+        "Key": 110
+    },
+    "FakeLag": {
+        "Enabled": false,
+        "Value": 10
+    },
+    "ForceLoadoutEditor": {
+        "Enabled": true
+    },
+    "FovChanger": {
+        "Enabled": true,
+        "OnScope": false,
+        "Value": 132.600006103516,
+        "ViewModelValue": 105.0
+    },
+    "Hitmarkers": {
+        "Enabled": true,
+        "Enemies": true,
+        "FadeTime": 500,
+        "Friends": false,
+        "InnerGap": 5,
+        "Size": 12
+    },
+    "MatchmakingMapPrediction": {
+        "Enabled": true
+    },
+    "NoFlash": {
+        "Enabled": true,
+        "Value": 255.0
+    },
+    "NoSmoke": {
+        "Enabled": true
+    },
+    "NoVisualRecoil": {
+        "Enabled": true
+    },
+    "Radar": {
+        "Color": {
+            "Bomb": {
+                "a": 255.0,
+                "b": 20.9999980926514,
+                "g": 20.9999980926514,
+                "r": 255.0
+            },
+            "Chicken": {
+                "a": 255.0,
+                "b": 254.997451782227,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Defuser": {
+                "a": 255.0,
+                "b": 223.000091552734,
+                "g": 105.999992370605,
+                "r": 243.0
+            },
+            "Enemy": {
+                "a": 255.0,
+                "b": 20.9999980926514,
+                "g": 20.9999980926514,
+                "r": 255.0
+            },
+            "Friend": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 173.000091552734,
+                "r": 53.9999961853027
+            }
+        },
+        "Filter": {
+            "Bomb": true,
+            "Chicken": false,
+            "Defuser": true,
+            "Enemy": true,
+            "Friend": true
+        },
+        "Misc": {
+            "FlashCheck": false,
+            "Opacity": 0.699999988079071,
+            "Scale": 16.0,
+            "Size": 5.0,
+            "SmokeCheck": false,
+            "UseTeammateColors": false,
+            "VisibleCheck": false
+        }
+    },
+    "RadioSpammer": {
+        "Delay": 700,
+        "Enabled": false,
+        "Messages": [],
+        "Randomize": false
+    },
+    "Ragebot": {
+        "Aimstep": false,
+        "AimstepAmount": 0.0,
+        "Antiaim": {
+            "Enabled": false,
+            "FakePitch": 1,
+            "FakeYaw": 2,
+            "IgnoreKnife": 1,
+            "Pitch": 2,
+            "Yaw": 8
+        },
+        "AutoCrouch": false,
+        "AutoRevolver": true,
+        "AutoScope": true,
+        "AutoStop": false,
+        "AutoWall": true,
+        "AutoWallMinDamage": 0.0,
+        "Autoshoot": true,
+        "BodyAim": false,
+        "Enabled": true,
+        "FOV": 180.0,
+        "Filters": {
+            "Enemies": true,
+            "Friends": false
+        },
+        "Hitbox": 0,
+        "Hitscan": true,
+        "NoSpread": false,
+        "RCS": true,
+        "Silent": true,
+        "Weapons": [
+            {
+                "AutoCrouch": false,
+                "AutoScope": true,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 0,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 20.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 7,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 24.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 8,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 42.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 90.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 9,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 15.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 63,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 75.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 1,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 15.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 2,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 24.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 10,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 15.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 3,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 40.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 11,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 24.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 13,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 15.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 4,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 14,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 24.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 60,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 24.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 16,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 24.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 17,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 24.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 27,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 24.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 33,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 24.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 34,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 28,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 24.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 35,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 15.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 32,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 15.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 36,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 24.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 19,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 24.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 26,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 60.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 64,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": true,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 40.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 38,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 24.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 39,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 45.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 90.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 40,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 24.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 29,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 15.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 30,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 24.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 24,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 15.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 61,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": true,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": true,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 24.0,
+                "Hitscan": true,
+                "ItemDefinitionIndex": 25,
+                "NoSpread": false,
+                "Override": true,
+                "RCS": true
+            }
+        ]
+    },
+    "RankRevealer": {
+        "Enabled": true
+    },
+    "RecoilCrosshair": {
+        "Enabled": true,
+        "OnlyWhenShooting": true
+    },
+    "Renderer": {
+        "Type": 1
+    },
+    "SkinChanger": {
+        "Gloves": {
+            "CT": {
+                "ItemDefinitionIndex": 5030,
+                "PaintKit": 10037
+            },
+            "T": {
+                "ItemDefinitionIndex": 5027,
+                "PaintKit": 10006
+            }
+        },
+        "Skins": {
+            "CT": [
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 7,
+                    "PaintKit": 639,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": 0.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 8,
+                    "PaintKit": 455,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 9,
+                    "PaintKit": 446,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 49,
+                    "PaintKit": -1,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 63,
+                    "PaintKit": 643,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 47,
+                    "PaintKit": -1,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 1,
+                    "PaintKit": 527,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": 0.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 2,
+                    "PaintKit": 658,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 10,
+                    "PaintKit": 154,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 3,
+                    "PaintKit": 646,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": 0.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 43,
+                    "PaintKit": -1,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 11,
+                    "PaintKit": 493,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 13,
+                    "PaintKit": 661,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 4,
+                    "PaintKit": 437,
+                    "Seed": -1,
+                    "StatTrak": 69,
+                    "Tag": "",
+                    "Wear": 0.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 44,
+                    "PaintKit": -1,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 48,
+                    "PaintKit": -1,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 515,
+                    "OriginalItemDefinitionIndex": 42,
+                    "PaintKit": 572,
+                    "Seed": 123457,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 14,
+                    "PaintKit": 648,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 60,
+                    "PaintKit": 644,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 16,
+                    "PaintKit": 309,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 17,
+                    "PaintKit": 433,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 27,
+                    "PaintKit": 608,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 33,
+                    "PaintKit": 481,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": 0.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 34,
+                    "PaintKit": 262,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 46,
+                    "PaintKit": -1,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 28,
+                    "PaintKit": 432,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 35,
+                    "PaintKit": 62,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 32,
+                    "PaintKit": 591,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 36,
+                    "PaintKit": 271,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": 0.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 19,
+                    "PaintKit": 636,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 26,
+                    "PaintKit": 542,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 64,
+                    "PaintKit": 522,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 38,
+                    "PaintKit": 597,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 39,
+                    "PaintKit": 287,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 40,
+                    "PaintKit": 624,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": 0.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 29,
+                    "PaintKit": 638,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 45,
+                    "PaintKit": -1,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 30,
+                    "PaintKit": 272,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 24,
+                    "PaintKit": 556,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 61,
+                    "PaintKit": 313,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 25,
+                    "PaintKit": 648,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "mannin",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 31,
+                    "PaintKit": 0,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": 0.0
+                }
+            ],
+            "T": [
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 7,
+                    "PaintKit": 639,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": 0.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 8,
+                    "PaintKit": 455,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 9,
+                    "PaintKit": 597,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 49,
+                    "PaintKit": -1,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 63,
+                    "PaintKit": 643,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 47,
+                    "PaintKit": -1,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 1,
+                    "PaintKit": 527,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": 0.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 2,
+                    "PaintKit": 658,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 10,
+                    "PaintKit": 154,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 3,
+                    "PaintKit": 646,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": 0.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 43,
+                    "PaintKit": -1,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 11,
+                    "PaintKit": 493,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 13,
+                    "PaintKit": 661,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 4,
+                    "PaintKit": 437,
+                    "Seed": -1,
+                    "StatTrak": 69,
+                    "Tag": "",
+                    "Wear": 0.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 44,
+                    "PaintKit": -1,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 48,
+                    "PaintKit": -1,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 507,
+                    "OriginalItemDefinitionIndex": 42,
+                    "PaintKit": 618,
+                    "Seed": 123457,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 14,
+                    "PaintKit": 648,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 60,
+                    "PaintKit": 644,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 16,
+                    "PaintKit": 309,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 17,
+                    "PaintKit": 433,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 27,
+                    "PaintKit": 608,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 33,
+                    "PaintKit": 481,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": 0.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 34,
+                    "PaintKit": 262,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 46,
+                    "PaintKit": -1,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 28,
+                    "PaintKit": 432,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 35,
+                    "PaintKit": 62,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 32,
+                    "PaintKit": 591,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 36,
+                    "PaintKit": 271,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": 0.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 19,
+                    "PaintKit": 636,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 26,
+                    "PaintKit": 542,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 64,
+                    "PaintKit": 522,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 38,
+                    "PaintKit": 597,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 39,
+                    "PaintKit": 287,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 40,
+                    "PaintKit": 624,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": 0.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 29,
+                    "PaintKit": 638,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 45,
+                    "PaintKit": -1,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 30,
+                    "PaintKit": 272,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 24,
+                    "PaintKit": 556,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 61,
+                    "PaintKit": 313,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 25,
+                    "PaintKit": 648,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": -1.0
+                },
+                {
+                    "ItemDefinitionIndex": 0,
+                    "OriginalItemDefinitionIndex": 31,
+                    "PaintKit": 0,
+                    "Seed": -1,
+                    "StatTrak": -1,
+                    "Tag": "",
+                    "Wear": 0.0
+                }
+            ]
+        }
+    },
+    "SkyboxChanger": {
+        "Enabled": true,
+        "Sky": 13
+    },
+    "SlideWalk": {
+        "Enabled": true
+    },
+    "SniperCrosshair": {
+        "Enabled": true
+    },
+    "SoundESP": {
+        "Enabled": false,
+        "MaxDistance": 2048.0,
+        "RippleRadius": 40.0,
+        "RippleTime": 1000
+    },
+    "SpreadCircle": {
+        "Enabled": true
+    },
+    "ThirdPerson": {
+        "Distance": 150.0,
+        "Enabled": false
+    },
+    "TriggerBot": {
+        "Enabled": true,
+        "Filter": {
+            "Chicken": true,
+            "Enemy": true,
+            "Friend": false
+        },
+        "FlashCheck": false,
+        "Hitbox": {
+            "Body": true,
+            "Chest": true,
+            "Head": true,
+            "LeftCalf": false,
+            "LeftFoot": false,
+            "LeftForearm": false,
+            "LeftHand": false,
+            "LeftThigh": true,
+            "LeftUpperArm": true,
+            "LowerNeck": true,
+            "Neck": true,
+            "Pelvis": true,
+            "RightCalf": false,
+            "RightFoot": false,
+            "RightForearm": false,
+            "RightHand": false,
+            "RightThigh": true,
+            "RightUpperArm": true,
+            "Scale": 0.900000035762787,
+            "Thorax": true,
+            "UpperChest": true
+        },
+        "Hitgroup": {
+            "Chest": true,
+            "Gear": false,
+            "Head": true,
+            "LeftArm": true,
+            "LeftLeg": true,
+            "RightArm": true,
+            "RightLeg": true,
+            "Stomach": true
+        },
+        "Key": 111,
+        "Overburst": {
+            "Enabled": true,
+            "MaxShots": 1,
+            "MinShots": 0
+        },
+        "SmokeCheck": false
+    },
+    "ViewChams": {
+        "Arms": {
+            "Alpha": 0.0,
+            "Color": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 197.050552368164,
+                "r": 0.0
+            },
+            "ColorXQZ": {
+                "a": 255.0,
+                "b": 0.0,
+                "g": 238.341705322266,
+                "r": 255.0
+            },
+            "Enabled": true,
+            "MaterialType": 0,
+            "Type": 0,
+            "Wireframe": false,
+            "XQZ": false
+        },
+        "Weapon": {
+            "Alpha": 1.0,
+            "Color": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "ColorXQZ": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Enabled": false,
+            "MaterialType": 0,
+            "Type": 0,
+            "Wireframe": false,
+            "XQZ": false
+        }
+    },
+    "Whitelist": {
+        "Players": [
+            76561198058207732
+        ]
+    },
+    "YawIndicator": {
+        "Enabled": true
+    }
+}

@@ -1,0 +1,20 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+- clean: ['~']
+- link:
+    ~/.dotfiles: ''
+    ~/.zshrc:
+      path: zshrc
+      force:true
+    ~/.atom: atom
+    ~/.config: config
+    ~/.quodlibet: quodlibet
+    ~/bin: bin
+    ~/wallpapers: wallpapers
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  - [cat ~/.config/dconf/user.d/* | dconf load /, Loading dconf configs]
+  - [gsettings set org.gnome.desktop.background picture-uri file://$HOME/wallpapers/1.jpg, Setting up wallpaper]
+

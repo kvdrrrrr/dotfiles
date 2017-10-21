@@ -1,0 +1,28 @@
+[settings]
+columns = ~#track,~people,~title~version,~album~discsubtitle,~#length
+	
+[memory]
+browser = PanedBrowser
+column_expands = ~people,1,~title~version,1,~album~discsubtitle,1
+	
+column_widths = ~people,-1,~title~version,-1,~album~discsubtitle,-1
+	
+open_browsers = 
+plugin_prefs_maximized = 0
+plugin_prefs_position = 14 63
+plugin_prefs_size_ = 700 500
+plugin_selection = APEv2 to ID3v2
+queue = True
+queue_expanded = True
+quodlibet_maximized = 0
+sortby = 0~#track
+	
+[player]
+gst_buffer = 1.5
+replaygain_mode = auto
+
+[plugins]
+active_plugins = 
+
+[__config__]
+version = 0

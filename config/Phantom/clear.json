@@ -1,0 +1,1097 @@
+{
+    "AirStuck": {
+        "Enabled": false,
+        "Key": 110
+    },
+    "AutoAccept": {
+        "Enabled": false
+    },
+    "AutoDefuse": {
+        "Enabled": false
+    },
+    "AutoPistol": {
+        "Enabled": true
+    },
+    "AutoStrafe": {
+        "Enabled": false
+    },
+    "BunnyHop": {
+        "Enabled": false
+    },
+    "Chams": {
+        "Color": {
+            "Enemy": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "EnemyVisible": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Friend": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "FriendVisible": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "LocalPlayer": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            }
+        },
+        "Enabled": false,
+        "Filter": {
+            "Enemy": false,
+            "Friend": false,
+            "LocalPlayer": false
+        },
+        "Type": 0,
+        "XQZ": false
+    },
+    "ChatSpammer": {
+        "Cmd": 0,
+        "Delay": 700,
+        "Enabled": false,
+        "FakeReports": {
+            "Team": 0,
+            "Type": 0
+        },
+        "Kills": {
+            "Enabled": false,
+            "Message": "$nick"
+        },
+        "Parrot": {
+            "Team": 0
+        },
+        "Positions": {
+            "Show": {
+                "Health": false,
+                "LastPlace": false,
+                "Money": false,
+                "Name": false,
+                "Rank": false,
+                "Weapon": false,
+                "Wins": false
+            },
+            "Team": 0
+        },
+        "Regular": {
+            "Messages": [],
+            "Randomize": false
+        },
+        "Type": 0
+    },
+    "ChatTranslator": {
+        "Api": 0,
+        "Enabled": false,
+        "IgnoredLanguages": []
+    },
+    "ClanTagChanger": {
+        "Animation": {
+            "Custom": {
+                "Animations": null,
+                "Selected": 0
+            },
+            "Delay": 300,
+            "Type": 0
+        },
+        "Enabled": false,
+        "Value": "Phantom"
+    },
+    "DamageIndicators": {
+        "Enabled": false,
+        "Enemies": false,
+        "FloatTime": 1000,
+        "Friends": false,
+        "OnlyLocalDamage": false
+    },
+    "DisablePostProcessing": {
+        "Enabled": true
+    },
+    "ESP": {
+        "AimTracers": false,
+        "Bar": {
+            "Enabled": false,
+            "Type": 0
+        },
+        "Box": {
+            "Enabled": false,
+            "Type": 0
+        },
+        "Color": {
+            "Bomb": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "BombDefusing": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Chicken": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Decoy": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Defuser": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Enemy": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "EnemyVisible": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Fish": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Flashbang": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Friend": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "FriendVisible": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Grenade": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Hostage": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "LocalPlayer": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Molotov": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Smoke": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Weapon": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            }
+        },
+        "ColorType": 0,
+        "Enabled": false,
+        "Filter": {
+            "Bomb": false,
+            "Chicken": false,
+            "Defuser": false,
+            "Enemy": false,
+            "Fish": false,
+            "Friend": false,
+            "Hostage": false,
+            "LocalPlayer": false,
+            "Projectiles": false,
+            "Weapon": false
+        },
+        "FlashCheck": false,
+        "Info": {
+            "Armor": false,
+            "Defusing": false,
+            "Flashed": false,
+            "GrabbingHostage": false,
+            "HasDefuser": false,
+            "Health": false,
+            "Location": false,
+            "Money": false,
+            "Name": false,
+            "Planting": false,
+            "Rank": false,
+            "Rescuing": false,
+            "Scoped": false,
+            "SteamID": false,
+            "Weapon": false
+        },
+        "Skeleton": false,
+        "SmokeCheck": false,
+        "Thickness": 1,
+        "Tracers": false,
+        "VisibleCheck": false
+    },
+    "EdgeJump": {
+        "Enabled": true,
+        "Key": 110
+    },
+    "FakeLag": {
+        "Enabled": true,
+        "Value": 6
+    },
+    "ForceLoadoutEditor": {
+        "Enabled": true
+    },
+    "ForceSquareRadar": {
+        "Enabled": true
+    },
+    "FovChanger": {
+        "Enabled": false,
+        "OnScope": false,
+        "Value": 90.0,
+        "ViewModelValue": 75.0
+    },
+    "Hitmarkers": {
+        "Enabled": false,
+        "Enemies": false,
+        "FadeTime": 2000,
+        "Friends": false,
+        "InnerGap": 5,
+        "Size": 16
+    },
+    "MatchmakingMapPrediction": {
+        "Enabled": false
+    },
+    "NoFlash": {
+        "Enabled": false,
+        "Value": 0.0
+    },
+    "NoSmoke": {
+        "Enabled": false
+    },
+    "NoVisualRecoil": {
+        "Enabled": false
+    },
+    "Radar": {
+        "Color": {
+            "Bomb": {
+                "a": 255.0,
+                "b": 0.0,
+                "g": 200.0,
+                "r": 255.0
+            },
+            "Chicken": {
+                "a": 255.0,
+                "b": 128.0,
+                "g": 255.0,
+                "r": 0.0
+            },
+            "Defuser": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 0.0,
+                "r": 180.0
+            },
+            "Enemy": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Friend": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 150.0,
+                "r": 0.0
+            }
+        },
+        "Filter": {
+            "Bomb": false,
+            "Chicken": false,
+            "Defuser": false,
+            "Enemy": true,
+            "Friend": true
+        },
+        "Misc": {
+            "FlashCheck": false,
+            "Opacity": 0.400000005960464,
+            "Scale": 16.0,
+            "Size": 5.5,
+            "SmokeCheck": false,
+            "UseTeammateColors": false,
+            "VisibleCheck": false
+        }
+    },
+    "RadioSpammer": {
+        "Delay": 700,
+        "Enabled": false,
+        "Messages": [
+            "getout"
+        ],
+        "Randomize": false
+    },
+    "Ragebot": {
+        "Aimstep": false,
+        "AimstepAmount": 0.0,
+        "Antiaim": {
+            "Enabled": false,
+            "FakePitch": 0,
+            "FakeYaw": 0,
+            "IgnoreKnife": 0,
+            "Pitch": 0,
+            "Yaw": 0
+        },
+        "AutoCrouch": false,
+        "AutoRevolver": false,
+        "AutoScope": false,
+        "AutoStop": false,
+        "AutoWall": false,
+        "AutoWallMinDamage": 0.0,
+        "Autoshoot": false,
+        "BodyAim": false,
+        "Enabled": false,
+        "FOV": 180.0,
+        "Filters": {
+            "Enemies": false,
+            "Friends": false
+        },
+        "Hitbox": 0,
+        "Hitscan": false,
+        "NoSpread": false,
+        "RCS": false,
+        "Silent": false,
+        "Weapons": [
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 0,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 7,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 8,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 9,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 63,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 1,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 2,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 10,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 3,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 11,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 13,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 4,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 14,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 60,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 16,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 17,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 27,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 33,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 34,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 28,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 35,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 32,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 36,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 19,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 26,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 64,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 38,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 39,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 40,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 29,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 30,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 24,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 61,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            },
+            {
+                "AutoCrouch": false,
+                "AutoScope": false,
+                "AutoStop": false,
+                "AutoWall": false,
+                "AutoWallMinDamage": 0.0,
+                "Autoshoot": false,
+                "BodyAim": false,
+                "Hitbox": 0,
+                "Hitchance": 0.0,
+                "Hitscan": false,
+                "ItemDefinitionIndex": 25,
+                "NoSpread": false,
+                "Override": false,
+                "RCS": false
+            }
+        ]
+    },
+    "RankRevealer": {
+        "Enabled": true
+    },
+    "RecoilCrosshair": {
+        "Enabled": false,
+        "OnlyWhenShooting": false
+    },
+    "Renderer": {
+        "Type": 0
+    },
+    "SkinChanger": {
+        "Gloves": {
+            "CT": {
+                "ItemDefinitionIndex": 0,
+                "PaintKit": 0
+            },
+            "T": {
+                "ItemDefinitionIndex": 0,
+                "PaintKit": 0
+            }
+        },
+        "Skins": {
+            "CT": null,
+            "T": null
+        }
+    },
+    "SkyboxChanger": {
+        "Enabled": false,
+        "Sky": 0
+    },
+    "SlideWalk": {
+        "Enabled": false
+    },
+    "SniperCrosshair": {
+        "Enabled": false
+    },
+    "SoundESP": {
+        "Enabled": false,
+        "MaxDistance": 2048.0,
+        "RippleRadius": 42.0,
+        "RippleTime": 1000
+    },
+    "SpreadCircle": {
+        "Enabled": false
+    },
+    "ThirdPerson": {
+        "Distance": 150.0,
+        "Enabled": false
+    },
+    "TriggerBot": {
+        "Enabled": false,
+        "Filter": {
+            "Chicken": false,
+            "Enemy": false,
+            "Friend": false
+        },
+        "FlashCheck": false,
+        "Hitbox": {
+            "Body": false,
+            "Chest": false,
+            "Head": false,
+            "LeftCalf": false,
+            "LeftFoot": false,
+            "LeftForearm": false,
+            "LeftHand": false,
+            "LeftThigh": false,
+            "LeftUpperArm": false,
+            "LowerNeck": false,
+            "Neck": false,
+            "Pelvis": false,
+            "RightCalf": false,
+            "RightFoot": false,
+            "RightForearm": false,
+            "RightHand": false,
+            "RightThigh": false,
+            "RightUpperArm": false,
+            "Scale": 1.0,
+            "Thorax": false,
+            "UpperChest": false
+        },
+        "Hitgroup": {
+            "Chest": true,
+            "Gear": false,
+            "Head": true,
+            "LeftArm": true,
+            "LeftLeg": true,
+            "RightArm": true,
+            "RightLeg": true,
+            "Stomach": true
+        },
+        "Key": 0,
+        "Overburst": {
+            "Enabled": false,
+            "MaxShots": 0,
+            "MinShots": 0
+        },
+        "SmokeCheck": false
+    },
+    "ViewChams": {
+        "Arms": {
+            "Alpha": 1.0,
+            "Color": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "ColorXQZ": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Enabled": false,
+            "MaterialType": 0,
+            "Type": 0,
+            "Wireframe": false,
+            "XQZ": false
+        },
+        "Weapon": {
+            "Alpha": 1.0,
+            "Color": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "ColorXQZ": {
+                "a": 255.0,
+                "b": 255.0,
+                "g": 255.0,
+                "r": 255.0
+            },
+            "Enabled": false,
+            "MaterialType": 0,
+            "Type": 0,
+            "Wireframe": false,
+            "XQZ": false
+        }
+    },
+    "Whitelist": {
+        "Players": []
+    },
+    "YawIndicator": {
+        "Enabled": false
+    }
+}
