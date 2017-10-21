@@ -4,6 +4,7 @@
   - gnome 3
   - dconf
   - git
+  - zsh
   - python
   - [hub](https://hub.github.com/)
   - [youtube-dl](https://rg3.github.io/youtube-dl/)
