@@ -24,7 +24,7 @@
 | Atom | `./atom/` | themes: nord-atom-ui; nord-atom-syntax | 
 | AimTux | `./config/AimTux/` | [also available here](https://github.com/kvdrrrrr/atconfigs) |
 | Chromium | `./config/chromium/` | just a list of extensions to install |
-| GNOME 3 (terminal too) | `./config/dconf/user.d/` | `cat ~/.config/dconf/user.d/* (pipe) dconf load` |
+| GNOME 3 (terminal too) | `./config/dconf/user.d/` | `cat ~/.config/dconf/user.d/* \| dconf load` |
 | mpv | `./config/mpv/` | |
 | Phantom| `./config/Phantom/` | |
 | qBittorrent | `./config/qBittorrent/` | |
